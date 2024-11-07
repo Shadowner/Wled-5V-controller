@@ -2950,12 +2950,6 @@
 		(uuid "654f08e2-9a4e-49db-a734-73fdd7c4dd54")
 	)
 	(junction
-		(at 44.45 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "727a5dd9-4f41-4499-a7f9-d5a5487a98f4")
-	)
-	(junction
 		(at 153.67 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3038,6 +3032,26 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6614997-7799-4ad1-8c84-1cf82229280c")
+	)
+	(no_connect
+		(at 170.18 105.41)
+		(uuid "35d8f40b-15d0-47ff-9f23-54d93f377872")
+	)
+	(no_connect
+		(at 170.18 118.11)
+		(uuid "500fdfc8-49b4-4d1d-88b4-2e18f6eb312e")
+	)
+	(no_connect
+		(at 170.18 120.65)
+		(uuid "526384f9-c6c5-45e8-9f69-58b621ade064")
+	)
+	(no_connect
+		(at 170.18 124.46)
+		(uuid "5382252a-dddf-4310-ad65-a40287df946d")
+	)
+	(no_connect
+		(at 170.18 132.08)
+		(uuid "7c89e2ef-19a1-44f8-b6f6-a212cfe4c40c")
 	)
 	(wire
 		(pts
@@ -3451,7 +3465,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 83.82) (xy 44.45 86.36)
+			(xy 44.45 81.28) (xy 44.45 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3491,6 +3505,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 41.91) (xy 212.09 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "632c7f75-c959-43e7-b01b-efb53bd5c15e")
+	)
+	(wire
+		(pts
 			(xy 184.15 102.87) (xy 184.15 105.41)
 		)
 		(stroke
@@ -3498,16 +3522,6 @@
 			(type default)
 		)
 		(uuid "6bede5a0-f6aa-4b6a-9eeb-5e0fe133ec80")
-	)
-	(wire
-		(pts
-			(xy 59.69 50.8) (xy 60.96 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c3ac616-a629-40f7-a3e7-c0058d509cb2")
 	)
 	(wire
 		(pts
@@ -3701,16 +3715,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 41.91) (xy 203.2 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f9cb46e-a567-4188-b542-d79318fce9fb")
-	)
-	(wire
-		(pts
 			(xy 214.63 87.63) (xy 214.63 88.9)
 		)
 		(stroke
@@ -3778,16 +3782,6 @@
 			(type default)
 		)
 		(uuid "99614f14-9911-460f-8a1a-f97fe1ebd56e")
-	)
-	(wire
-		(pts
-			(xy 44.45 81.28) (xy 44.45 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a1eded1-16ac-4d34-a95e-e97531deb72d")
 	)
 	(wire
 		(pts
@@ -4058,16 +4052,6 @@
 			(type default)
 		)
 		(uuid "d08fbab7-5a3e-4ecf-88f9-f77d77632c0b")
-	)
-	(wire
-		(pts
-			(xy 59.69 48.26) (xy 68.58 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3053007-4140-4447-a362-b9e077901443")
 	)
 	(wire
 		(pts
@@ -4367,7 +4351,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_3-G-5.08_1x03_P5.08mm_Vertical"
 			(at 198.12 107.95 0)
 			(effects
 				(font
@@ -5585,9 +5569,10 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_MEC_5GTH9"
 			(at 247.65 135.89 0)
 			(effects
 				(font
@@ -5663,7 +5648,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 153.67 39.37 0)
 			(effects
 				(font
@@ -5772,73 +5757,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 44.45 83.82 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73325238-1543-4607-982f-babcb4453c76")
-		(property "Reference" "#FLG02"
-			(at 46.355 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 48.26 83.8199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 44.45 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e347bf14-b518-4f76-aba7-9f91c6040331")
-		)
-		(instances
-			(project "5v_led_controller"
-				(path "/e68e9797-4f23-4143-bd83-94920fd8fbf0"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 119.38 124.46 0)
 		(mirror y)
@@ -5866,7 +5784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_4-G-3.81_1x04_P3.81mm_Vertical"
 			(at 119.38 124.46 0)
 			(effects
 				(font
@@ -6213,7 +6131,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1812_4532Metric"
 			(at 66.802 82.55 90)
 			(effects
 				(font
@@ -6727,7 +6645,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UCSP30L1_ROM"
+		(property "Footprint" "BU33SA5WGWZ-E2:BU33SA5WGWZ-E2"
 			(at 162.56 39.37 0)
 			(effects
 				(font
@@ -6805,7 +6723,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 80.3148 74.93 0)
 			(effects
 				(font
@@ -7423,7 +7341,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32-C3-MINI-1-N4:XCVR_ESP32-C3-MINI-1-N4"
+		(property "Footprint" "ESP32-C3-MINI1:ESP32-C3-MINI-1-N4"
 			(at 151.892 87.884 0)
 			(effects
 				(font
